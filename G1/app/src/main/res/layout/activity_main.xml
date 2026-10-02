@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/spacing_large">
+
+    <!-- Logo Campus -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/img" />
+
+    <!-- Titre principal -->
+    <TextView
+        android:id="@+id/txtAppTitle"
+        android:layout_width="123dp"
+        android:layout_height="52dp"
+        android:text="@string/app_name"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/text_size_header"
+        android:textStyle="bold" />
+
+    <!-- Salutation -->
+    <TextView
+        android:id="@+id/txtGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="@string/welcome_student"
+        android:textColor="@color/text_primary"
+        android:textSize="@dimen/text_size_title"
+        android:textStyle="bold" />
+
+    <!-- Sous-titre -->
+    <TextView
+        android:id="@+id/txtSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:layout_marginBottom="@dimen/spacing_xlarge"
+        android:text="@string/welcome_subtitle"
+        android:textColor="@color/text_secondary"
+        android:textSize="@dimen/text_size_medium"
+        android:textAlignment="center" />
+
+    <!-- Bouton 1 : Événements -->
+    <Button
+        android:id="@+id/btnEvents"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:backgroundTint="@color/primary"
+        android:text="@string/btn_events"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/text_size_medium" />
+
+    <!-- Bouton 2 : Services -->
+    <Button
+        android:id="@+id/btnServices"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:backgroundTint="@color/accent"
+        android:text="@string/btn_services"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/text_size_medium" />
+
+    <!-- Bouton 3 : Mes tâches -->
+    <Button
+        android:id="@+id/btnTasks"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:backgroundTint="@color/accent"
+        android:text="@string/btn_tasks"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/text_size_medium" />
+
+    <!-- Bouton 4 : Paramètres -->
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:backgroundTint="@color/primary_variant"
+        android:text="@string/btn_settings"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/text_size_medium" />
+
+</LinearLayout>

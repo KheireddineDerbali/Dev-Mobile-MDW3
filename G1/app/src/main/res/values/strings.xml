@@ -1,0 +1,27 @@
+<resources>
+    <!-- Nom de l'application -->
+    <string name="app_name">CampusConnect</string>
+
+    <!-- Écran d'accueil -->
+    <string name="welcome_student">Bonjour, étudiant !</string>
+    <string name="welcome_subtitle">Bienvenue sur votre portail universitaire</string>
+
+    <!-- Libellés des boutons de navigation -->
+    <string name="btn_events">Événements</string>
+    <string name="btn_services">Services</string>
+    <string name="btn_tasks">Mes tâches</string>
+    <string name="btn_settings">Paramètres</string>
+
+    <!-- Titres des écrans secondaires -->
+    <string name="title_events">Événements du campus</string>
+    <string name="title_services">Services aux étudiants</string>
+    <string name="title_tasks">Mes tâches universitaires</string>
+    <string name="title_settings">Paramètres de l\'application</string>
+
+    <!-- Descriptions d'attente pour les écrans secondaires -->
+    <string name="placeholder_events">Liste des événements à venir sur le campus (sera développée au TP2).</string>
+    <string name="placeholder_services">Grille des services disponibles (sera développée au TP2).</string>
+    <string name="placeholder_tasks">Gestion de vos devoirs et révisions (sera développée au TP3).</string>
+    <string name="placeholder_settings">Configuration de votre profil et préférences (sera développée au TP4).</string>
+    <string name="btn_back">Retour à l\'accueil</string>
+</resources>
