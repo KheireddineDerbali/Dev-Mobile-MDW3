@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs primaires universitaires -->
+    <color name="primary">#1A365D</color>          <!-- Bleu nuit académique -->
+    <color name="primary_variant">#0F2444</color>  <!-- Bleu foncé -->
+    <color name="accent">#2B6CB0</color>           <!-- Bleu dynamique -->
+
+    <!-- Couleurs de fond et de surface -->
+    <color name="background">#F7FAFC</color>       <!-- Blanc cassé / gris très clair -->
+    <color name="card_background">#FFFFFF</color>  <!-- Blanc pur -->
+
+    <!-- Couleurs de texte -->
+    <color name="text_primary">#2D3748</color>     <!-- Gris anthracite foncé -->
+    <color name="text_secondary">#718096</color>   <!-- Gris moyen -->
+    <color name="text_white">#FFFFFF</color>       <!-- Blanc -->
+
+    <!-- Couleurs d'état -->
+    <color name="color_success">#38A169</color>
+    <color name="color_warning">#DD6B20</color>
+    <color name="color_error">#E53E3E</color>
+</resources>
